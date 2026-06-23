@@ -1,0 +1,24 @@
+{
+  "name": "@fullstack-boilerplate/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@fullstack-boilerplate/db": "workspace:*",
+    "@fullstack-boilerplate/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fullstack-boilerplate/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

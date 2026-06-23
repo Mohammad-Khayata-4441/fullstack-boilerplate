@@ -1,0 +1,27 @@
+{
+  "name": "@fullstack-boilerplate/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@fullstack-boilerplate/auth": "workspace:*",
+    "@fullstack-boilerplate/db": "workspace:*",
+    "@fullstack-boilerplate/env": "workspace:*",
+    "@trpc/client": "catalog:",
+    "@trpc/server": "catalog:",
+    "dotenv": "catalog:",
+    "next": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fullstack-boilerplate/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
