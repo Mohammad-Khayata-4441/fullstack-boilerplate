@@ -1,0 +1,38 @@
+{
+  "Common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "confirm": "تأكيد"
+  },
+  "Navigation": {
+    "home": "الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج"
+  },
+  "Auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟"
+  },
+  "Dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً، {name}!"
+  },
+  "Home": {
+    "apiStatus": "حالة الـ API",
+    "connected": "متصل",
+    "disconnected": "غير متصل",
+    "checking": "جاري الفحص..."
+  }
+}

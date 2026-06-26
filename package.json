@@ -11,6 +11,7 @@
     "build": "turbo build",
     "check-types": "turbo check-types",
     "dev:web": "turbo -F web dev",
+    "dev:email": "turbo -F @fullstack-boilerplate/email dev",
     "db:push": "turbo -F @fullstack-boilerplate/db db:push",
     "db:studio": "turbo -F @fullstack-boilerplate/db db:studio",
     "db:generate": "turbo -F @fullstack-boilerplate/db db:generate",

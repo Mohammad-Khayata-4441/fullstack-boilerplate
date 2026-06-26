@@ -44,6 +44,14 @@
     },
     "db:down": {
       "cache": false
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "inputs": ["src/**", "tests/unit/**", "vitest.config.ts", "vitest.setup.ts"]
+    },
+    "test:e2e": {
+      "dependsOn": ["^build"],
+      "cache": false
     }
   }
 }

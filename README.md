@@ -29,6 +29,7 @@ This project uses PostgreSQL with Prisma.
 
 1. Make sure you have a PostgreSQL database set up.
 2. Update your `apps/web/.env` file with your PostgreSQL connection details.
+   - When using the Dockerized database, connect to `localhost:5433` on the host.
 
 3. Apply the schema to your database:
 
