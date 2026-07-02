@@ -8,6 +8,6 @@
       "@fullstack-boilerplate/ui/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", ".storybook/**/*.ts"],
   "exclude": ["node_modules"]
 }
