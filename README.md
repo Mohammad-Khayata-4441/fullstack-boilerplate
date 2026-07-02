@@ -37,6 +37,16 @@ This project uses PostgreSQL with Prisma.
 pnpm run db:push
 ```
 
+### Database Seeding
+
+Populate your database with realistic test data:
+
+```bash
+pnpm db:seed
+```
+
+Creates sample users with realistic data using Faker. All seeded users have password: `password123`.
+
 Then, run the development server:
 
 ```bash
@@ -71,6 +81,16 @@ import { Button } from "@fullstack-boilerplate/ui/components/button";
 
 If you want to add app-specific blocks instead of shared primitives, run the shadcn CLI from `apps/web`.
 
+### Storybook
+
+Develop and preview UI components in isolation:
+
+```bash
+pnpm storybook
+```
+
+Opens at [http://localhost:6006](http://localhost:6006). Add stories alongside components in `packages/ui/src/components/*.stories.tsx`.
+
 ## Deployment
 
 ### Docker Compose
@@ -96,6 +116,14 @@ fullstack-boilerplate/
 │   ├── auth/        # Authentication configuration & logic
 │   └── db/          # Database schema & queries
 ```
+
+## Error Handling
+
+- **Route errors** — `apps/web/src/app/error.tsx` catches errors in routes with retry functionality
+- **Global errors** — `apps/web/src/app/global-error.tsx` catches critical errors in the root layout
+- **Component errors** — Use `ErrorBoundary` from `@fullstack-boilerplate/ui/components/error-boundary` to wrap individual components
+
+All errors are automatically reported to Sentry when configured.
 
 ## Available Scripts
 
