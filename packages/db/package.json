@@ -13,8 +13,12 @@
     "db:push": "prisma db push",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx prisma/seed.ts",
     "postinstall": "prisma generate",
     "db:studio": "prisma studio"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
     "@fullstack-boilerplate/env": "workspace:*",
@@ -27,6 +31,7 @@
   "devDependencies": {
     "@fullstack-boilerplate/config": "workspace:*",
     "@types/pg": "^8.16.0",
+    "better-auth": "catalog:",
     "prisma": "^7.8.0",
     "typescript": "catalog:"
   }

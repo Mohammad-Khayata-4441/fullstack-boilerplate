@@ -16,6 +16,7 @@
     "db:studio": "turbo -F @fullstack-boilerplate/db db:studio",
     "db:generate": "turbo -F @fullstack-boilerplate/db db:generate",
     "db:migrate": "turbo -F @fullstack-boilerplate/db db:migrate",
+    "db:seed": "turbo -F @fullstack-boilerplate/db db:seed",
     "db:start": "docker compose up -d postgres",
     "db:watch": "docker compose up postgres",
     "db:stop": "docker compose stop postgres",
@@ -33,8 +34,10 @@
     "zod": "catalog:"
   },
   "devDependencies": {
+    "@faker-js/faker": "^10.5.0",
     "@fullstack-boilerplate/config": "workspace:*",
     "@types/node": "^22.13.14",
+    "tsx": "^4.22.4",
     "turbo": "^2.9.16",
     "typescript": "catalog:"
   },

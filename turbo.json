@@ -45,6 +45,9 @@
     "db:down": {
       "cache": false
     },
+    "db:seed": {
+      "cache": false
+    },
     "test": {
       "dependsOn": ["^build"],
       "inputs": ["src/**", "tests/unit/**", "vitest.config.ts", "vitest.setup.ts"]
