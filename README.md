@@ -117,6 +117,20 @@ fullstack-boilerplate/
 │   └── db/          # Database schema & queries
 ```
 
+## Documentation
+
+This project follows an AI-First documentation system:
+
+- **AGENTS.md** — Agent entry point (commands, rules, doc map)
+- **docs/PRODUCT.md** — Vision, business context, domain glossary
+- **docs/ARCHITECTURE.md** — System shape and boundaries
+- **docs/STANDARDS.md** — Code, testing, and git conventions
+- **docs/decisions/** — Architecture Decision Records (ADRs)
+- **docs/runbooks/** — Operations and deployment guides
+- **specs/** — Feature specs (spec → plan → tasks)
+
+See [AGENTS.md](./AGENTS.md) for the full documentation map.
+
 ## Error Handling
 
 - **Route errors** — `apps/web/src/app/error.tsx` catches errors in routes with retry functionality

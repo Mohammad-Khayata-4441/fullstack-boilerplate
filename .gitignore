@@ -52,6 +52,13 @@ test-results
 # Sentry
 .sentryclirc
 
+# Storybook
+storybook-static
+packages/ui/storybook-static
+
+# Superpowers (subagent-driven development scratch)
+.superpowers/sdd
+
 # Misc
 *.tgz
 .cache
