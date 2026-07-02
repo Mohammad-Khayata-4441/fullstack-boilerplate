@@ -23,7 +23,9 @@
     "docker:build": "docker compose build",
     "docker:up": "docker compose up -d --build",
     "docker:down": "docker compose down",
-    "docker:logs": "docker compose logs -f"
+    "docker:logs": "docker compose logs -f",
+    "storybook": "turbo --filter @fullstack-boilerplate/ui storybook",
+    "build-storybook": "turbo --filter @fullstack-boilerplate/ui build-storybook"
   },
   "dependencies": {
     "@fullstack-boilerplate/env": "workspace:*",

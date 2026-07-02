@@ -52,6 +52,10 @@
     "test:e2e": {
       "dependsOn": ["^build"],
       "cache": false
+    },
+    "build-storybook": {
+      "dependsOn": ["^build"],
+      "outputs": ["storybook-static/**"]
     }
   }
 }
